@@ -18,7 +18,7 @@ export default function Weatherapp({info}) {
     }
   return (
     <div>
-        <h1 style={{textAlign:"center"}}>Weather App By Vani</h1>
+        <h1 style={{textAlign:"center",fontFamily:"cursive"}}>Forecast Fusion</h1>
       <Searchbox updateinfo={updateinfo} />
      <br></br><br></br>
        <Infobox info={weatherinfo} />
